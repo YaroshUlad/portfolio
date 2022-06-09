@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Examples.module.css'
-import {Skill} from "../mySkills/skill/Skill";
+import {Example} from "./Example/Example";
 
 export const Examples = () => {
     return (
@@ -10,7 +10,9 @@ export const Examples = () => {
                     <h2>Examples</h2>
                 </div>
                 <div className={s.examplesWrapper}>
-                    <Skill/>
+                    <Example/>
+                    <Example/>
+                    <Example/>
                 </div>
 
             </div>

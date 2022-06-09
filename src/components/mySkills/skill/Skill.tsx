@@ -11,7 +11,9 @@ export const Skill = () => {
                 <h3>Skill Title</h3>
             </div>
             <div className={s.descriptionWrapper}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto, assumenda cum dolor eum explicabo magnam minus repellat rerum voluptates!
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam architecto, assumenda cum dolor eum
+                    explicabo magnam minus repellat rerum voluptates!</p>
             </div>
 
         </div>
