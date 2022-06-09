@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './MySkills.module.css'
+import {Skill} from "./skill/Skill";
 
 export const MySkills = () => {
     return (
@@ -9,7 +10,11 @@ export const MySkills = () => {
                     <h2>My Skills</h2>
                 </div>
                 <div className={s.skillsWrapper}>
-
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
                 </div>
 
             </div>

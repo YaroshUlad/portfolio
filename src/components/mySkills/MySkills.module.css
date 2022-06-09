@@ -1,5 +1,6 @@
 .mySkillsBlock{
-    height: 100vh;
+    min-height: 100vh;
+    max-height: max-content;
     background-color: #ff8b8b;
 }
 .container{
@@ -18,4 +19,8 @@
 .skillsWrapper{
     height: calc(100% - 80px);
     background-color: #ffb9b9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }
