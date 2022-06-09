@@ -17,6 +17,13 @@ export const Contacts = () => {
                         <button>Send message</button>
                     </form>
                 </div>
+                <div className={s.contactsData}>
+                    <span>phone number will be here</span>
+                    <span>telegram will be here</span>
+                    <span>viber will be here</span>
+                    <span>whatsUp will be here</span>
+                    <span>email will be here</span>
+                </div>
             </div>
         </div>
     );

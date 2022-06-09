@@ -1,0 +1,41 @@
+.footerBlock {
+    height: 250px;
+    background-color: #9df860;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    background-color: #affd7f;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleWrapper {
+    background-color: #facccc;
+}
+
+.socialMediaLinksWrapper {
+    background-color: aquamarine;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    min-width: 288px;
+    max-width: 50%;
+}
+
+.linkWrapper {
+    min-width: 60px;
+    max-width: 80px;
+    min-height: 60px;
+    max-height: 80px;
+    border: 1px solid;
+}
+
+.copyRightWrapper {
+    background-color: #facccc;
+}
