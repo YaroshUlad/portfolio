@@ -1,0 +1,21 @@
+.mySkillsBlock{
+    height: 100vh;
+    background-color: #ff8b8b;
+}
+.container{
+    height: 100%;
+    width: 80%;
+    background-color: #fab3b3;
+    margin: 0 auto;
+}
+.titleWrapper{
+    background-color: #facccc;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillsWrapper{
+    height: calc(100% - 80px);
+    background-color: #ffb9b9;
+}
