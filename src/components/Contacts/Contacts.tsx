@@ -13,7 +13,7 @@ export const Contacts = () => {
                         <input type='email' placeholder={'enter your email'}/>
                         <input type="text" placeholder={"enter message's theme"}/>
                         <textarea placeholder={'enter your message'} name="textArea" id="1" cols={30}
-                                  rows={10}>sadas</textarea>
+                                  rows={10}/>
                         <button>Send message</button>
                     </form>
                 </div>
