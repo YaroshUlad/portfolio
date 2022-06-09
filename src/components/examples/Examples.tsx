@@ -4,7 +4,7 @@ import {Example} from "./Example/Example";
 
 export const Examples = () => {
     return (
-        <div className={s.examplesBlock}>
+        <div id={'examples'} className={s.examplesBlock}>
             <div className={s.container}>
                 <div className={s.titleWrapper}>
                     <h2>Examples</h2>
