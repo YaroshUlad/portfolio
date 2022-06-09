@@ -1,25 +1,25 @@
-.mySkillsBlock{
+.examplesBlock{
     min-height: 100vh;
     max-height: max-content;
-    background-color: #ff8b8b;
+    background-color: #8c8cfc;
 }
 .container{
     min-height: 100vh;
     max-height: max-content;
     width: 80%;
-    background-color: #fab3b3;
+    background-color: #ababff;
     margin: 0 auto;
 }
 .titleWrapper{
-    background-color: #facccc;
+    background-color: #b3b3fc;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.skillsWrapper{
+.examplesWrapper{
     height: calc(100% - 80px);
-    background-color: #ffb9b9;
+    background-color: #c3c3ff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
